@@ -8,6 +8,9 @@ body {
     justify-content: center;
     align-items: center;
     color: hsl(224, 23%, 55%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: repeat-x;
 }
 
 html {
