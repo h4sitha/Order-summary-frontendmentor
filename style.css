@@ -82,7 +82,9 @@ h1 {
 #bottom-half > a {
     color: inherit;
     text-decoration: none;
-    margin-bottom: 14px;
+    /* min-width: auto; */
+    width: fit-content;
+    margin: 0 auto 14px auto;
 }
 
 #premium-plan > a {
