@@ -10,10 +10,6 @@ body {
     color: hsl(224, 23%, 55%);
 }
 
-button {
-    font-family: inherit;
-}
-
 html {
     font-size: 16px;
 }
@@ -59,7 +55,7 @@ h1 {
     padding: 18px;
     align-items: center;
     background-color: hsla(223, 47%, 23%, 0.05);
-    border-radius: 16px;
+    border-radius: 12px;
     margin-bottom: 30px;
 }
 
@@ -82,4 +78,16 @@ h1 {
 
 #premium-plan > a {
     color: hsl(245, 75%, 52%)
+}
+
+button {
+    font-family: inherit;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: inherit;
+    margin-bottom: 25px;
 }
