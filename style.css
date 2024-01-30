@@ -55,6 +55,7 @@ h1 {
     margin-bottom: 20px;
     color: hsl(223, 47%, 23%);
     margin-top: 10px;
+    font-weight: 900;
 }
 
 #premium-plan {
@@ -102,7 +103,7 @@ button {
     border: none;
     padding: 15px;
     border-radius: 12px;
-    font-weight: 700;
+    font-weight: 900;
     font-size: inherit;
     margin-bottom: 25px;
     box-shadow: 0 20px 20px hsla(245, 75%, 52%, 0.15);
