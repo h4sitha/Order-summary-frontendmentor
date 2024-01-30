@@ -53,7 +53,7 @@ h1 {
 #premium-plan {
     display: flex;
     gap: 10px;
-    padding: 18px;
+    padding: 16px 24px;
     align-items: center;
     background-color: hsla(223, 47%, 23%, 0.05);
     border-radius: 12px;
@@ -67,10 +67,13 @@ h1 {
 #premium-plan > div {
     display: flex;
     flex-direction: column;
+    margin-left: 12px;
+    gap: 4px;
 }
 
 #premium-plan span:first-of-type {
     color: hsl(223, 47%, 23%);
+    font-weight: 900;
 }
 
 #bottom-half > a {
