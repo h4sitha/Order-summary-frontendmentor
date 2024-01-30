@@ -31,4 +31,7 @@ main {
 
 #bottom-half {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
