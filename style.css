@@ -103,3 +103,19 @@ button {
 a {
     font-weight: 700;
 }
+
+/* hover effects */
+
+button:hover {
+    background-color: hsla(245, 75%, 52%, 0.7);
+    cursor: pointer;
+}
+
+#bottom-half > a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+#premium-plan > a:hover {
+    color: hsla(245, 75%, 52%, 0.7);
+    text-decoration: none;
+}
