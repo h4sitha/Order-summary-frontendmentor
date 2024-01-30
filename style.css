@@ -21,7 +21,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid greenyellow; */
+    border: 1px solid greenyellow;
 }
 
 main {
@@ -47,4 +47,19 @@ p {
 
 h1 {
     font-size: 1.84rem;
+}
+
+#premium-plan {
+    display: flex;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+#premium-plan > a {
+    margin-left: auto;
+}
+
+#premium-plan > div {
+    display: flex;
+    flex-direction: column;
 }
