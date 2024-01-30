@@ -61,11 +61,11 @@ h1 {
 #premium-plan {
     display: flex;
     gap: 10px;
-    padding: 16px 24px;
+    padding: 24px;
     align-items: center;
     background-color: hsla(223, 47%, 23%, 0.05);
     border-radius: 12px;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
 }
 
 #premium-plan > a {
