@@ -30,6 +30,7 @@ main {
     /* border: 1px solid black; */
     border-radius: 14px;
     background-color: white;
+    box-shadow: 0 20px 20px hsla(245, 75%, 52%, 0.15);
 }
 
 main > img {
