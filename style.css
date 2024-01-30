@@ -21,7 +21,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
 }
 
 main {
@@ -43,10 +43,12 @@ main > img {
 p {
     padding: 0 50px;
     line-height: 24px;
+    margin-bottom: 20px;
 }
 
 h1 {
     font-size: 1.84rem;
+    margin-bottom: 20px;
 }
 
 #premium-plan {
