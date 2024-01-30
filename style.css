@@ -7,6 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: hsl(224, 23%, 55%);
 }
 
 button {
@@ -49,6 +50,7 @@ p {
 h1 {
     font-size: 1.84rem;
     margin-bottom: 20px;
+    color: hsl(223, 47%, 23%);
 }
 
 #premium-plan {
@@ -64,4 +66,16 @@ h1 {
 #premium-plan > div {
     display: flex;
     flex-direction: column;
+}
+
+#premium-plan span:first-of-type {
+    color: hsl(223, 47%, 23%);
+}
+
+#bottom-half > a {
+    color: inherit;
+}
+
+#premium-plan > a {
+    color: hsl(245, 75%, 52%)
 }
