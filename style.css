@@ -24,10 +24,12 @@ html {
 main {
     max-width: 450px;
     border: 1px solid black;
+    border-radius: 14px;
 }
 
 main > img {
     width: 100%;
+    border-radius: 14px 14px 0 0;
 }
 
 #bottom-half {
